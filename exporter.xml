@@ -1,0 +1,68 @@
+<exporter version="1.0">
+    <!-- identifier of the exporter -->
+    <name>emotes</name>
+
+    <!-- display name of the exporter for the combo box -->
+    <displayName>Reddit Stylesheet Emotes (BPM)</displayName>
+
+    <!-- description of the exporter -->
+    <description>Exports spritesheet for use in BPM-compatible subreddits</description>
+
+    <!-- exporter version -->
+    <version>1.0</version>
+
+    <files>
+        <file>
+            <!-- name of this file variable -->
+            <name>emotes</name>
+
+            <!-- human readable name (for GUI) -->
+            <displayName>Emote Stylesheet</displayName>
+
+            <!-- file extension for the file -->
+            <fileExtension>css</fileExtension>
+
+            <!-- description what the file contains, used in tooltips in the GUI -->
+            <description>Exports spritesheet for use in BPM-compatible subreddits</description>
+
+            <!-- name of the template file -->
+            <template>main.css</template>
+        </file>
+        <file>
+            <!-- name of this file variable -->
+            <name>codes</name>
+
+            <!-- human readable name (for GUI) -->
+            <displayName>Emote Stylesheet</displayName>
+
+            <!-- file extension for the file -->
+            <fileExtension>md</fileExtension>
+
+            <!-- description what the file contains, used in tooltips in the GUI -->
+            <description>Generates emote codes for use in commenting.</description>
+
+            <!-- name of the template file -->
+            <template>codes.md</template>
+        </file>
+
+    </files>
+
+    <!-- target framework supports trimming -->
+    <supportsTrimming>true</supportsTrimming>
+
+    <!-- target framework supports rotated sprites -->
+    <supportsRotation>false</supportsRotation>
+
+    <!-- rotated sprites direction (cw/ccw) -->
+    <rotationDirection>cw</rotationDirection>
+
+    <!-- supports npot sizes -->
+    <supportsNPOT>true</supportsNPOT>
+
+    <!-- supports file name stripping (remove .png etc) -->
+    <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
+
+    <!-- supports texure subpath -->
+    <supportsTextureSubPath>no</supportsTextureSubPath>
+
+</exporter>
